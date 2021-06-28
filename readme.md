@@ -299,3 +299,5 @@ I'm definitely fascinated by [Cloudflare Workers][workers], and I'm still explor
 [twitter]: https://twitter.com/bradgarropy
 [repo]: https://github.com/bradgarropy/cloudflare-link-tree
 [github]: https://github.com/bradgarropy
+[article]: https://bradgarropy.com/blog/cloudflare-worker-link-tree
+[blog]: https://bradgarropy.com/blog
