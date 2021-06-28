@@ -1,4 +1,4 @@
-## _I posted [this article][article] on [my blog][blog] for a better reading experience._
+_I posted [this article][article] on [my blog][blog] for a better reading experience._
 
 # 🌲 cloudflare worker link tree
 
