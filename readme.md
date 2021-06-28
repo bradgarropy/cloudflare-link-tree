@@ -1,4 +1,4 @@
-_I posted [this article][article] on [my blog][blog] for a better reading experience._
+## _I posted [this article][article] on [my blog][blog] for a better reading experience._
 
 # 🌲 cloudflare worker link tree
 
@@ -11,6 +11,8 @@ I've heard a lot about [Cloudflare Workers][workers], but until recently I've ne
 ## 👨🏼‍💻 building a link tree
 
 The first worker I built was a clone of [linktree][linktree], but with a little added flare. I'll walk you through how to build a simpler version of this link tree.
+
+All of the code is located on [GitHub][github] in the [cloudflare-link-tree][repo] repository.
 
 ![link tree][finished]
 
@@ -278,8 +280,6 @@ https://link-tree.<SUBDOMAIN>.workers.dev
 
 I'm definitely fascinated by [Cloudflare Workers][workers], and I'm still exploring the possibilites of what they can enable. If you build something cool with a worker, share it with me on [Twitter][twitter]!
 
-[article]: https://bradgarropy.com/blog/cloudflare-worker-link-tree
-[blog]: https://bradgarropy.com/blog
 [workers]: https://workers.cloudflare.com
 [dashboard]: https://dash.cloudflare.com
 [cli]: https://developers.cloudflare.com/workers/cli-wrangler
@@ -297,3 +297,5 @@ I'm definitely fascinated by [Cloudflare Workers][workers], and I'm still explor
 [htmlrewriter]: https://developers.cloudflare.com/workers/runtime-apis/html-rewriter
 [final]: images/final.png
 [twitter]: https://twitter.com/bradgarropy
+[repo]: https://github.com/bradgarropy/cloudflare-link-tree
+[github]: https://github.com/bradgarropy
