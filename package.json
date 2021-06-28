@@ -1,0 +1,51 @@
+{
+    "name": "cloudflare-link-tree",
+    "version": "1.0.0",
+    "description": "🌲 cloudflare link tree",
+    "keywords": [
+        "typescript",
+        "eslint",
+        "prettier",
+        "webpack",
+        "cloudflare",
+        "cloudflare-worker",
+        "cloudflare-workers",
+        "link-tree",
+        "interview"
+    ],
+    "homepage": "https://cloudflare-link-tree.bradgarropy.workers.dev",
+    "bugs": {
+        "url": "https://github.com/bradgarropy/cloudflare-link-tree/issues"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Brad Garropy",
+        "email": "bradgarropy@gmail.com",
+        "url": "https://bradgarropy.com"
+    },
+    "main": "dist/worker.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bradgarropy/cloudflare-link-tree"
+    },
+    "scripts": {
+        "build": "webpack"
+    },
+    "dependencies": {
+        "itty-router": "^2.3.10"
+    },
+    "devDependencies": {
+        "@bradgarropy/eslint-config": "^1.1.0",
+        "@bradgarropy/eslint-config-typescript": "^1.0.2",
+        "@cloudflare/workers-types": "^2.2.2",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^7.29.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-simple-import-sort": "^7.0.0",
+        "prettier": "^1.19.1",
+        "ts-loader": "^8.3.0",
+        "typescript": "^4.3.4",
+        "webpack": "^4.46.0",
+        "webpack-cli": "^4.7.2"
+    }
+}

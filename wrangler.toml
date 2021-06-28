@@ -1,0 +1,12 @@
+name = "cloudflare-link-tree"
+type = "webpack"
+account_id = "b70a6ce696a1cb0e9055f8213f4146ee"
+workers_dev = true
+route = ""
+zone_id = ""
+target_type = "webpack"
+webpack_config = "webpack.config.js"
+
+[dev]
+port = 8000
+local_protocol = "http"
