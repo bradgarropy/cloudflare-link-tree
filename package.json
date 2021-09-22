@@ -1,6 +1,6 @@
 {
     "name": "cloudflare-link-tree",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "🌲 cloudflare link tree",
     "keywords": [
         "typescript",
@@ -32,12 +32,14 @@
         "build": "webpack"
     },
     "dependencies": {
-        "itty-router": "^2.3.10"
+        "itty-router": "^2.4.2",
+        "itty-router-extras": "^0.4.2"
     },
     "devDependencies": {
         "@bradgarropy/eslint-config": "^1.1.0",
         "@bradgarropy/eslint-config-typescript": "^1.0.2",
         "@cloudflare/workers-types": "^2.2.2",
+        "@types/itty-router-extras": "^0.4.0",
         "babel-eslint": "^10.1.0",
         "eslint": "^7.29.0",
         "eslint-config-prettier": "^8.3.0",

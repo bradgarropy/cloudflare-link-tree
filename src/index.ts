@@ -10,14 +10,12 @@ import {
 } from "./rewriters"
 import links from "./links"
 import {Router} from "itty-router"
+import {json, error} from "itty-router-extras"
 
 const router = Router()
 
 router.get("/links", () => {
-    const response = new Response(JSON.stringify(links), {
-        headers: {"content-type": "application/json"},
-    })
-
+    const response = json(links)
     return response
 })
 
@@ -41,14 +39,7 @@ router.get("*", async () => {
 })
 
 router.all("*", () => {
-    const response = new Response(
-        "Error: This service only accepts GET requests.",
-        {
-            status: 500,
-            headers: {"content-type": "text/plain"},
-        },
-    )
-
+    const response = error(500, "This service only accepts GET requests.")
     return response
 })
 
